@@ -26,4 +26,4 @@ legend("topright", legend = c("Sub metering 1", "Sub metering 2", "Sub metering 
 
 # 5. Save to Graphics Device
 dev.copy(png, file = "plot3.png")
-dev.off
+dev.off()

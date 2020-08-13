@@ -21,4 +21,4 @@ plot(data$DateTime, data$Global_active_power, type = "l",
 
 # 5. Save to Graphics Device
 dev.copy(png, file = "plot2.png")
-dev.off
+dev.off()
