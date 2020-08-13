@@ -17,7 +17,7 @@ data$DateTime <- strptime(data$DateTime, format = "%d/%m/%Y %H:%M:%S")
 
 # 4. Plot Time
 par(mfrow = c(2,2))
-par(mar = c(4,4,4,2))
+par(mar = c(4,4,2,2))
 plot(data$DateTime, data$Global_active_power, type = "l", 
      ylab = "Global Active Power (kilowatts)", xlab = "")
 plot(data$DateTime, data$Voltage, xlab = "datetime", ylab = "Voltage", type = "l")
